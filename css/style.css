@@ -1,0 +1,104 @@
+:root{
+  --font_poppins: 'Poppins', sans-serif;
+  --primary_color: #203239;
+}
+
+/* =======common code start here=====/ */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  line-height: .8;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.paragraph{
+  color: var(--primary_color);
+  font-family: var(--font_poppins);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.heading{
+  color: var(--primary_color);
+  font-size: 36px;
+  font-family: var(--font_poppins);
+  font-weight: 600;
+  line-height: 150%;
+
+}
+
+/* =======common code is end here===== */
+
+/* =====navber start here==== */
+#navber{
+  padding: 57px 0 60px 0;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+.nav_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_part ul{
+  display: flex;
+  column-gap: 100px;
+} 
+
+.menu_part ul li a{
+  color: var(--primary_color);
+  font-family: var(--font_poppins);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.menu_part ul li a::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: darkorange;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  transition: all linear .3s;
+}
+
+.menu_part ul li a:hover:after{
+  width: 40px;
+}
+/*====== navber end here===== */
+
+
+
+
+
+
+
+
