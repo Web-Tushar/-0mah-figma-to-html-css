@@ -95,6 +95,141 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /*====== navber end here===== */
 
+/* =====banner section satart here=== */
+
+#banner{
+  padding: 130px 0 60px 0;
+  background-color: #EEEDDE;
+}
+
+.banner_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_content{
+  width: 770px;
+ }
+
+.banner_content h1{
+  color: var(--primary_color);
+  font-family: var(--font_poppins);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: capitalize;
+  padding-top: 70px;
+}
+
+.banner_content p{
+  color: rgba(31, 50, 56, 0.55);
+  width: 544px;
+  margin-top: 24px;
+}
+
+
+
+.banner_search{
+  width: 675px;
+  height: 70px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 56px;
+  overflow: hidden;
+}
+.banner_search form{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+.banner_search form input{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: none;
+  padding: 23px 0 23px 56px;
+  font-size: 16px;
+  font-family: var(--font_poppins);
+  font-weight: 300;
+  line-height: normal;
+  color: #203239;
+}
+
+.banner_search form input::placeholder{
+  color: rgba(33, 50, 56, 0.55);
+}
+.banner_search form i{
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+}
+
+.banner_search form button{
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+  padding: 13px 41px 13px 41px;
+  background-color: var(--primary_color);
+  border-radius: 10px;
+  color: #fff;
+  font-family: var(--font_poppins);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+.counter_wrapper{
+  margin-top: 56px;
+  display: flex;
+  column-gap: 72px;
+  align-items: flex-start;
+}
+
+.counter_item span{
+  color: var(--primary_color);
+  font-size: 56px;
+  font-family: var(--font_poppins);
+  font-weight: 600;
+  line-height: 150%;
+
+}
+
+.counter_item span span{
+  color: #FF7527;
+  font-size: 56px;
+  font-family: var(--font_poppins);
+  font-weight: 600;
+  line-height: 150%;
+
+}
+.counter_item p{
+  margin-top: 0;
+  width: auto;
+  color: rgba(33, 50, 56, 0.55);
+
+}
+
+.banner_img{
+  width: 400px;
+  height: 522px;
+  overflow: hidden;
+}
+
+.banner_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========= banner section end here==== */
+
+
+
 
 
 
