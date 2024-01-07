@@ -369,6 +369,94 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ======Auditor section end here===  */
 
+/* ======contact start here==== */
+
+#contact{
+  padding: 48px 0;
+  background-color: #EEEDDE;
+}
+
+.heading_wrapper{
+  display: flex;
+  column-gap: 117px;
+
+}
+.contact_head{
+  width: 650px;
+  background-color: transparent;
+}
+
+.contact_wrapper{
+  margin-top: 65px;
+  display: flex;
+  column-gap: 48px;
+}
+
+.phn{
+  display: flex;
+  column-gap: 48px;
+}
+          
+.phn .phn_item{
+  padding: 24px;
+  background-color: transparent;
+  border: 1px solid #FF7527;
+  border-radius: 10px;
+}
+.phn_item_wrapper{
+  width: 195px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 24px;
+}
+.icon i{
+ font-size: 30px;  
+}
+.phn_item .call p{
+  padding: 13px 61.5px;
+  background-color: rgba(255, 118, 38, 0.20);
+  border-radius: 10px;
+  color: #FF7527;
+  font-family: var(--font_poppins);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  transition: all linear .3s;
+
+}
+
+.phn_item .call p:hover{
+  color: #fff;
+  background-color: #FF7527;
+}
+
+.phn_item .two p{
+  color: var(--primary_color);
+  font-family: var(--font_poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.phn_item .two span{
+  color: #203239;
+  font-family: var(--font_poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo_ll{
+  margin-top: 39px;
+  display: flex;
+  column-gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======contact start here==== */
+
 
 
 
