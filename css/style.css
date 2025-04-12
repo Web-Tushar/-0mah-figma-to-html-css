@@ -91,7 +91,7 @@ p {
   content: "";
   width: 0;
   height: 3px;
-  background-color: darkorange;
+  background-color: rgb(60, 8, 171);
   position: absolute;
   top: 110%;
   left: 50%;
